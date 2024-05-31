@@ -8,7 +8,7 @@ class TestZoo(TestCase):
         
         self.zoo_1: Zoo = Zoo()
         self.zookeeper_1: ZooKeeper = ZooKeeper(name="Gianni", surname="Rossi", id=1)
-        self.fence_1: Fence = Fence(area=100, temperatura=25.0 habitat="Savana")
+        self.fence_1: Fence = Fence(area=100, temperatura=25.0, habitat="Savana")
         self.animal_1: Animal = Animal(name="Pluto", species="Canide", age=5, height=300.0, width=1.0, preferred_habitat="Savana")
         
     def test_animal_dimensioni(self):
