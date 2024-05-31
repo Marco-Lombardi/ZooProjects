@@ -22,7 +22,7 @@ class TestZoo(TestCase):
             result: int = len(self.fence_1.list_of_animals)
             message: str = f"Error: the function add_animal should not add self.animal_1 into self.fence_1"
             
-    if __name__ == "__main__":
+if __name__ == "__main__":
             
         unittest.main()
             
